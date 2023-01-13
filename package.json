@@ -10,5 +10,20 @@
   },
   "scripts": {
     "start": "node server.js"
-  }
+  },
+  "name": "chat-app-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cheeonon/chat-app-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cheeonon/chat-app-api/issues"
+  },
+  "homepage": "https://github.com/Cheeonon/chat-app-api#readme",
+  "description": ""
 }
