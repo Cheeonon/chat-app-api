@@ -24,6 +24,10 @@ app.use('/user', userRoutes);
 app.use(express.static(__dirname + '/public/img'));
 app.use(fileUpload());
 
+app.get("/", (req, res) => {
+    res.send("Server Connected.")
+})
+
 app.get('/img/:id', (req, res) => {
 
     try{
